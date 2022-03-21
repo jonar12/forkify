@@ -1,0 +1,26 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Jonathan Arredondo",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "fractional": "^1.0.0",
+    "node": "^17.7.1",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.49.9"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
+    "assert": "^2.0.0",
+    "console-browserify": "^1.2.0",
+    "parcel": "^2.3.2",
+    "process": "^0.11.10",
+    "util": "^0.12.4"
+  }
+}
